@@ -6,6 +6,8 @@ public class PuzzlePiece : MonoBehaviour
     public PuzzleManagerr puzzleManager;
     private Button button;
     private Image image;
+    
+    public int indiceCorreto;  // índice correto da peça
 
     private void Awake()
     {
@@ -13,6 +15,11 @@ public class PuzzlePiece : MonoBehaviour
         image = GetComponent<Image>();
 
         button.onClick.AddListener(OnPieceClicked);
+    }
+    void Start()
+    {
+        // Guardar a posição correta da peça no início do jogo
+        indiceCorreto = transform.GetSiblingIndex();
     }
 
     void OnPieceClicked()
