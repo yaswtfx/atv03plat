@@ -132,6 +132,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1694422474}
     m_Modifications:
+    - target: {fileID: -8792922836059212920, guid: e2d1cba2089d6c94da41ef7160c116ff, type: 3}
+      propertyPath: puzzleManager
+      value: 
+      objectReference: {fileID: 1994819896}
     - target: {fileID: 3956906031437288063, guid: e2d1cba2089d6c94da41ef7160c116ff, type: 3}
       propertyPath: m_Name
       value: PuzzlePiece (10)
@@ -237,6 +241,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1694422474}
     m_Modifications:
+    - target: {fileID: -8792922836059212920, guid: e2d1cba2089d6c94da41ef7160c116ff, type: 3}
+      propertyPath: puzzleManager
+      value: 
+      objectReference: {fileID: 1994819896}
     - target: {fileID: 3956906031437288063, guid: e2d1cba2089d6c94da41ef7160c116ff, type: 3}
       propertyPath: m_Name
       value: PuzzlePiece (5)
@@ -342,6 +350,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1694422474}
     m_Modifications:
+    - target: {fileID: -8792922836059212920, guid: e2d1cba2089d6c94da41ef7160c116ff, type: 3}
+      propertyPath: puzzleManager
+      value: 
+      objectReference: {fileID: 1994819896}
     - target: {fileID: 3956906031437288063, guid: e2d1cba2089d6c94da41ef7160c116ff, type: 3}
       propertyPath: m_Name
       value: PuzzlePiece (1)
@@ -462,6 +474,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1694422474}
     m_Modifications:
+    - target: {fileID: -8792922836059212920, guid: e2d1cba2089d6c94da41ef7160c116ff, type: 3}
+      propertyPath: puzzleManager
+      value: 
+      objectReference: {fileID: 1994819896}
     - target: {fileID: 3956906031437288063, guid: e2d1cba2089d6c94da41ef7160c116ff, type: 3}
       propertyPath: m_Name
       value: PuzzlePiece (9)
@@ -714,6 +730,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1694422474}
     m_Modifications:
+    - target: {fileID: -8792922836059212920, guid: e2d1cba2089d6c94da41ef7160c116ff, type: 3}
+      propertyPath: puzzleManager
+      value: 
+      objectReference: {fileID: 1994819896}
     - target: {fileID: 3956906031437288063, guid: e2d1cba2089d6c94da41ef7160c116ff, type: 3}
       propertyPath: m_Name
       value: PuzzlePiece (7)
@@ -903,6 +923,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1694422474}
     m_Modifications:
+    - target: {fileID: -8792922836059212920, guid: e2d1cba2089d6c94da41ef7160c116ff, type: 3}
+      propertyPath: puzzleManager
+      value: 
+      objectReference: {fileID: 1994819896}
     - target: {fileID: 3956906031437288063, guid: e2d1cba2089d6c94da41ef7160c116ff, type: 3}
       propertyPath: m_Name
       value: PuzzlePiece (8)
@@ -1087,6 +1111,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1694422474}
     m_Modifications:
+    - target: {fileID: -8792922836059212920, guid: e2d1cba2089d6c94da41ef7160c116ff, type: 3}
+      propertyPath: puzzleManager
+      value: 
+      objectReference: {fileID: 1994819896}
     - target: {fileID: 3956906031437288063, guid: e2d1cba2089d6c94da41ef7160c116ff, type: 3}
       propertyPath: m_Name
       value: PuzzlePiece (13)
@@ -1207,6 +1235,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1694422474}
     m_Modifications:
+    - target: {fileID: -8792922836059212920, guid: e2d1cba2089d6c94da41ef7160c116ff, type: 3}
+      propertyPath: puzzleManager
+      value: 
+      objectReference: {fileID: 1994819896}
     - target: {fileID: 3956906031437288063, guid: e2d1cba2089d6c94da41ef7160c116ff, type: 3}
       propertyPath: m_Name
       value: PuzzlePiece (3)
@@ -1327,6 +1359,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1694422474}
     m_Modifications:
+    - target: {fileID: -8792922836059212920, guid: e2d1cba2089d6c94da41ef7160c116ff, type: 3}
+      propertyPath: puzzleManager
+      value: 
+      objectReference: {fileID: 1994819896}
     - target: {fileID: 3956906031437288063, guid: e2d1cba2089d6c94da41ef7160c116ff, type: 3}
       propertyPath: m_Name
       value: PuzzlePiece (15)
@@ -1432,6 +1468,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1694422474}
     m_Modifications:
+    - target: {fileID: -8792922836059212920, guid: e2d1cba2089d6c94da41ef7160c116ff, type: 3}
+      propertyPath: puzzleManager
+      value: 
+      objectReference: {fileID: 1994819896}
     - target: {fileID: 3956906031437288063, guid: e2d1cba2089d6c94da41ef7160c116ff, type: 3}
       propertyPath: m_Name
       value: PuzzlePiece (14)
@@ -1775,6 +1815,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1694422474}
     m_Modifications:
+    - target: {fileID: -8792922836059212920, guid: e2d1cba2089d6c94da41ef7160c116ff, type: 3}
+      propertyPath: puzzleManager
+      value: 
+      objectReference: {fileID: 1994819896}
     - target: {fileID: 3956906031437288063, guid: e2d1cba2089d6c94da41ef7160c116ff, type: 3}
       propertyPath: m_Name
       value: PuzzlePiece (11)
@@ -1880,6 +1924,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1694422474}
     m_Modifications:
+    - target: {fileID: -8792922836059212920, guid: e2d1cba2089d6c94da41ef7160c116ff, type: 3}
+      propertyPath: puzzleManager
+      value: 
+      objectReference: {fileID: 1994819896}
     - target: {fileID: 3956906031437288063, guid: e2d1cba2089d6c94da41ef7160c116ff, type: 3}
       propertyPath: m_Name
       value: PuzzlePiece (12)
@@ -1985,6 +2033,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1694422474}
     m_Modifications:
+    - target: {fileID: -8792922836059212920, guid: e2d1cba2089d6c94da41ef7160c116ff, type: 3}
+      propertyPath: puzzleManager
+      value: 
+      objectReference: {fileID: 1994819896}
     - target: {fileID: 3956906031437288063, guid: e2d1cba2089d6c94da41ef7160c116ff, type: 3}
       propertyPath: m_Name
       value: PuzzlePiece (2)
@@ -2090,6 +2142,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1694422474}
     m_Modifications:
+    - target: {fileID: -8792922836059212920, guid: e2d1cba2089d6c94da41ef7160c116ff, type: 3}
+      propertyPath: puzzleManager
+      value: 
+      objectReference: {fileID: 1994819896}
     - target: {fileID: 3956906031437288063, guid: e2d1cba2089d6c94da41ef7160c116ff, type: 3}
       propertyPath: m_Name
       value: PuzzlePiece (4)
@@ -2187,6 +2243,51 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2d1cba2089d6c94da41ef7160c116ff, type: 3}
+--- !u!1 &1994819895
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1994819897}
+  - component: {fileID: 1994819896}
+  m_Layer: 0
+  m_Name: PuzzleManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1994819896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1994819895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e028065fed65cfb409d212147e76da77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panelPai: {fileID: 1694422474}
+--- !u!4 &1994819897
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1994819895}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2084239031
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2195,6 +2296,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1694422474}
     m_Modifications:
+    - target: {fileID: -8792922836059212920, guid: e2d1cba2089d6c94da41ef7160c116ff, type: 3}
+      propertyPath: puzzleManager
+      value: 
+      objectReference: {fileID: 1994819896}
     - target: {fileID: 3956906031437288063, guid: e2d1cba2089d6c94da41ef7160c116ff, type: 3}
       propertyPath: m_Name
       value: PuzzlePiece (6)
@@ -2300,6 +2405,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1694422474}
     m_Modifications:
+    - target: {fileID: -8792922836059212920, guid: e2d1cba2089d6c94da41ef7160c116ff, type: 3}
+      propertyPath: puzzleManager
+      value: 
+      objectReference: {fileID: 1994819896}
     - target: {fileID: 3956906031437288063, guid: e2d1cba2089d6c94da41ef7160c116ff, type: 3}
       propertyPath: m_Name
       value: PuzzlePiece
@@ -2405,3 +2514,4 @@ SceneRoots:
   - {fileID: 619394802}
   - {fileID: 1462681509}
   - {fileID: 763117387}
+  - {fileID: 1994819897}
