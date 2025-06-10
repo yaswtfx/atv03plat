@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c2b50d82-aee7-4845-acff-f4ffd12bd6ac" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.atv03teste/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.atv03teste/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Puzzle.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Puzzle.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/scripts/PuzzleManagerr.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/PuzzleManagerr.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/scripts/PuzzlePiece.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/PuzzlePiece.cs" afterDir="false" />
     </list>
@@ -22,10 +21,10 @@
     <setting file="file://$PROJECT_DIR$/Assets/scripts/ICommand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/TrocaPecasCommand.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2xg99o4h5dJxW8ziEiej23s0koi" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -34,6 +33,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -96,6 +96,7 @@
       <option name="presentableId" value="Default" />
       <updated>1748348703014</updated>
       <workItem from="1748348705565" duration="3369000" />
+      <workItem from="1749553012124" duration="1980000" />
     </task>
     <servers />
   </component>

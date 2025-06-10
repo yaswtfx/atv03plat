@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -10,11 +11,14 @@ public class PuzzleManagerr : MonoBehaviour
     public GameObject telaDeVitoria; // Painel da UI
     public Button botaoJogarNovamente;
     public Button botaoReplay;
+    public Button botaoCancelarReplay;
+    public bool cancelarReplay = false;
     private bool _jogoCompleto = false;
+    public bool emReplay = false;
     
     private Stack<ICommand> comandosExecutados = new Stack<ICommand>();
     private List<Transform> ordemInicial = new List<Transform>();
-        
+    private List<ICommand> historicoComandos = new List<ICommand>(); // Para o replay
     void Start()
     {
         EmbaralharPecas();
@@ -25,9 +29,10 @@ public class PuzzleManagerr : MonoBehaviour
 
         // Associa os botões
         botaoJogarNovamente.onClick.AddListener(ReiniciarJogo);
-        botaoReplay.onClick.AddListener(ExecutarReplay);
-    }
         
+        botaoCancelarReplay.onClick.AddListener(CancelarReplay);
+    }
+
     public void PecaClicada(PuzzlePiece pecaClicada)
     {
         if (primeiraPecaSelecionada == null) 
@@ -52,9 +57,12 @@ public class PuzzleManagerr : MonoBehaviour
         
     void TrocarPecas(PuzzlePiece peca1, PuzzlePiece peca2)
     {
+        if (emReplay) return;
+        
         ICommand comando = new TrocaPecasCommand(peca1, peca2);
         comando.Execute();
         comandosExecutados.Push(comando);
+        historicoComandos.Add(comando);
                 
         // Verifica se o puzzle foi completado
         if (PuzzleCompleto())
@@ -110,6 +118,7 @@ public class PuzzleManagerr : MonoBehaviour
     {
         Debug.Log("Parabéns! Você completou o puzzle!");
         // Aqui você pode ativar UI, desabilitar seleção, etc.
+        botaoCancelarReplay.gameObject.SetActive(false);
     }
     
     public void DesfazerUltimoMovimento()
@@ -139,9 +148,70 @@ public class PuzzleManagerr : MonoBehaviour
         UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex);
     }
 
-    void ExecutarReplay()
+    void IniciarReplay()
     {
+        if (historicoComandos.Count == 0) return;
         
+        _jogoCompleto = false;
+        emReplay = true;
+        cancelarReplay = false;
+        telaDeVitoria.SetActive(false);
+        botaoCancelarReplay.gameObject.SetActive(true);
+        
+        StartCoroutine(ExecutarReplay());
+    }
+
+    private IEnumerator ExecutarReplay()
+    {
+        // Primeiro desfaz tudo
+        while (comandosExecutados.Count > 0)
+        {
+            DesfazerUltimoMovimento();
+            yield return new WaitForSeconds(0.3f);
+        }
+        
+        yield return new WaitForSeconds(0.5f);
+        
+        // Agora executa cada movimento com delay
+        foreach (var comando in historicoComandos)
+        {
+            if (cancelarReplay)
+            {
+                ExecutarRestanteReplayRapidamente();
+                yield break;
+            }
+            
+            comando.Execute();
+            comandosExecutados.Push(comando);
+            yield return new WaitForSeconds(1f);
+        }
+        
+        FinalizarReplay();
+    }
+    void ExecutarRestanteReplayRapidamente()
+    {
+        foreach (var comando in historicoComandos)
+        {
+            if (!comandosExecutados.Contains(comando))
+            {
+                comando.Execute();
+                comandosExecutados.Push(comando);
+            }
+        }
+        FinalizarReplay();
+    }
+
+    void FinalizarReplay()
+    {
+        emReplay = false;
+        _jogoCompleto = true;
+        telaDeVitoria.SetActive(true);
+        botaoCancelarReplay.gameObject.SetActive(false);
+    }
+
+    void CancelarReplay()
+    {
+        cancelarReplay = true;
     }
     
     

@@ -24,6 +24,8 @@ public class PuzzlePiece : MonoBehaviour
 
     void OnPieceClicked()
     {
+        if (puzzleManager.emReplay) return;
+        
         puzzleManager.PecaClicada(this);
     }
 
